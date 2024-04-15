@@ -2,7 +2,7 @@ import unittest
 from multiplicacion import multiplicar
 
 class TestSumar(unittest.TestCase):
-    def test_sumar(self):
+    def test_multiplicar(self):
         self.assertEqual(multiplicar(3,2), 6)
         self.assertEqual(multiplicar(2,1), 2)
         self.assertEqual(multiplicar(2, 5), 10)
